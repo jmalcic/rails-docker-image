@@ -17,3 +17,6 @@ RUN gem update
 
 # install Yarn
 RUN npm install -g yarn
+
+# install Rails
+RUN gem install rails
