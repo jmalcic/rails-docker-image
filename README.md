@@ -1,2 +1,2 @@
 # rails-docker-image
-Base image for Rails based on Alpine
+Base image for Rails based on Alpine.
