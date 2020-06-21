@@ -1,7 +1,7 @@
 FROM ruby:alpine
 
 # install APK packages
-RUN apk add \
+RUN apk add --no-cache \
     build-base \
     linux-headers \
     git \
@@ -19,4 +19,4 @@ RUN gem update
 RUN npm install -g yarn
 
 # install Rails
-RUN gem install rails
+RUN gem install rails:6.0
